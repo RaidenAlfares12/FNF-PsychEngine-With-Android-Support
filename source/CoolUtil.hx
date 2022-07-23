@@ -21,8 +21,10 @@ class CoolUtil
 		'Easy',
 		'Normal',
 		'Hard', 
-                'Hell',
-                'Super hell'
+         'hell', 
+         'Hell', 
+          'super hell', 
+          'Super Hell'
 	];
 	public static var defaultDifficulty:String = 'Normal'; //The chart that has no suffix and starting difficulty on Freeplay/Story Mode
 
