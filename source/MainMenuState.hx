@@ -19,7 +19,7 @@ import flixel.util.FlxColor;
 import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
-import android.flixel.FlxJoystick;
+import android.flixel.FlxJoyStick;
 import flixel.input.keyboard.FlxKey;
 
 using StringTools;
