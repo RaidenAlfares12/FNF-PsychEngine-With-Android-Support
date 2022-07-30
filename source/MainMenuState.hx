@@ -28,9 +28,9 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.6.2'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
-        public static var joystick:FlxJoystick;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
+        var joystick:FlxJoyStick;
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 	
@@ -161,8 +161,7 @@ class MainMenuState extends MusicBeatState
 		#if android
 		addVirtualPad(UP_DOWN, A_B_E);
 		virtualPad.y = -44;
-                joystick = new FlxJoystick(100, 332, 100, 0.25)
-                createJoystick();
+                CreateJoystick();
 		#end
 
 		super.create();
